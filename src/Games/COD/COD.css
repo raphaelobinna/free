@@ -1,0 +1,37 @@
+.COD{
+    background-color: olive;
+    align-content: center;
+    align-items: center;
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+.COD p {
+    font-style: italic;
+    font-weight: 200;
+}
+.COD button {
+    background-color: orangered;
+display: block;
+font: inherit;
+padding: 5px;
+margin: 0 5px;
+width: 80px;
+border: 1px solid #AA6817;
+cursor: pointer;
+outline: none;
+}
+.COD button:disabled {
+    background-color: black;
+    border: 1px solid #7E7365;
+    color:black;
+    cursor: default;
+}
+    .COD button:hover:active {  
+        background-color: #DAA972;
+        color: white;
+    }
