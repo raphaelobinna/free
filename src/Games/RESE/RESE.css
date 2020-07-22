@@ -1,0 +1,72 @@
+.res video{
+    height: 400px;
+    width: 1500px;
+    align-self: center;
+}
+
+.RES{
+    background-color: rgb(17, 45, 99);
+    align-content: center;
+    align-items: center;
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+.RES h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+}
+.RES p {
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
+.RES button {
+    background-color: orangered;
+display: block;
+font: inherit;
+padding: 5px;
+margin: 0 5px;
+width: 80px;
+border: 1px solid #AA6817;
+cursor: pointer;
+outline: none;
+}
+.RES button:disabled {
+    background-color: black;
+    border: 1px solid #7E7365;
+    color:black;
+    cursor: default;
+}
+    .RES button:hover:active {  
+        background-color: #DAA972;
+        color: white;
+    }
+    @media (max-width: 499px){
+        .res video{
+            height: 150px;
+            width: 380px;
+            align-self: center;
+            align-content: center;
+            justify-content: center;
+        }
+        .RES{
+            width: 450px;
+            justify-content: center;
+            background-color: rgb(17, 45, 99);
+            align-content: center;
+            align-items: center;
+            display: block;
+            font: inherit;
+            padding: 5px;
+            margin: 0 5px;
+            border: 1px solid #AA6817;
+            cursor: pointer;
+            outline: none;
+        }
+    }

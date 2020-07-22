@@ -1,0 +1,72 @@
+.gow video{
+    height: 400px;
+    width: 1500px;
+    align-self: center;
+}
+
+.GOW{
+    background-color: rgb(17, 45, 99);
+    align-content: center;
+    align-items: center;
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+}
+.GOW h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+}
+.GOW p {
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+}
+.GOW button {
+    background-color: orangered;
+display: block;
+font: inherit;
+padding: 5px;
+margin: 0 5px;
+width: 80px;
+border: 1px solid #AA6817;
+cursor: pointer;
+outline: none;
+}
+.GOW button:disabled {
+    background-color: black;
+    border: 1px solid #7E7365;
+    color:black;
+    cursor: default;
+}
+    .GOW button:hover:active {  
+        background-color: #DAA972;
+        color: white;
+    }
+    @media (max-width: 499px){
+        .gow video{
+            height: 150px;
+            width: 380px;
+            align-self: center;
+            align-content: center;
+            justify-content: center;
+        }
+        .GOW{
+            width: 450px;
+            justify-content: center;
+            background-color: rgb(17, 45, 99);
+            align-content: center;
+            align-items: center;
+            display: block;
+            font: inherit;
+            padding: 5px;
+            margin: 0 5px;
+            border: 1px solid #AA6817;
+            cursor: pointer;
+            outline: none;
+        }
+    }

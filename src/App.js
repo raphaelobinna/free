@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
-import COD from './Games/COD/COD'
+//import logo from './logo.svg';
+import { BrowserRouter } from 'react-router-dom'
 import './App.css';
+import Container from './Container/Container'
+
+
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div>
-       <COD/>
+      <BrowserRouter>
+       <div>
+      <Container/>
       </div>
-    );
+      </BrowserRouter>
+     
+    )
   }
-}
 
+};
 export default App;
+

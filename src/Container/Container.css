@@ -1,0 +1,45 @@
+.Containers header{
+    height: 50px;
+    width: auto;
+    border: 5px solid black;
+    background-color: firebrick;
+}
+.Containers ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+.Containers li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+.Containers a{
+    color: black;
+}
+.Containers a:hover,
+.Containers a:active{
+    color: chartreuse;
+}
+@media (max-width: 499px) {
+    .Containers header{
+        height: 50px;
+        width: 400px;
+        border: 5px solid black;
+        background-color: #b22222;
+    }
+    .Containers ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .Containers li {
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px;
+    }
+}

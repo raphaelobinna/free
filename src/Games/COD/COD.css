@@ -1,5 +1,12 @@
+.cod video{
+    height: 400px;
+    width: 1500px;
+    align-self: center;
+}
+
+
 .COD{
-    background-color: olive;
+    background-color: rgb(17, 45, 99);
     align-content: center;
     align-items: center;
     display: block;
@@ -10,11 +17,18 @@
     cursor: pointer;
     outline: none;
 }
+.COD h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+}
 .COD p {
-    font-style: italic;
-    font-weight: 200;
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
 }
 .COD button {
+    align-self: center;
     background-color: orangered;
 display: block;
 font: inherit;
@@ -34,4 +48,27 @@ outline: none;
     .COD button:hover:active {  
         background-color: #DAA972;
         color: white;
+    }
+
+    @media (max-width: 499px){
+        .cod video{
+            height: 150px;
+            width: 380px;
+            justify-content: center;
+            align-self: center;
+        }
+        .COD{
+            justify-content: center;
+            width: 450px;
+            background-color: rgb(17, 45, 99);
+            align-content: center;
+            align-items: center;
+            display: block;
+            font: inherit;
+            padding: 5px;
+            margin: 0 5px;
+            border: 1px solid #AA6817;
+            cursor: pointer;
+            outline: none;
+        }
     }
