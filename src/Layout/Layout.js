@@ -11,7 +11,11 @@ import Res from '../Games/RESE/RESE';
     <Gow/>
     <Far/>
     <Res/>
-
+    <div className={classes.Layout}>
+    <p>@me 2020. All rights reserved</p>
+    <p>To comment click <a href="https://wa.me/+2348160573782">here</a></p>
+    </div>
+   
 </div>
 
  )

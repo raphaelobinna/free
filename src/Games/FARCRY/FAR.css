@@ -1,23 +1,23 @@
-.far video{
-    height: 400px;
-    width: 1500px;
+.FAR img{
+    height: 200px;
+    width: 500px;
     align-self: center;
 }
 .FAR{
     background-color: rgb(17, 45, 99);
     align-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     font: inherit;
     padding: 5px;
-    margin: 0 5px;
+    margin: 5px 10px;
     border: 1px solid #AA6817;
     cursor: pointer;
     outline: none;
 }
 .FAR h1 {
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     font-size: large;
 }
 .FAR p {
@@ -47,7 +47,7 @@ outline: none;
         color: white;
     }
     @media (max-width: 499px){
-        .far video{
+        .far img{
             height: 150px;
             width: 380px;
             align-self: center;

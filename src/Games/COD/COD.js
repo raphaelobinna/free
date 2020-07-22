@@ -47,7 +47,7 @@ addGameHandler =() =>{
          this.setState({purchasing: false})
      }
      orderContinueHandler = () => {
-         alert('Thanks but I am not done with the site')
+         alert('Thanks but I am not done with the server side yet')
      }
      
     render () {      
@@ -63,14 +63,15 @@ addGameHandler =() =>{
                 show={this.state.purchasing}
                 modalClosed={this.orderCancelPurchaseHandler}>
                     <h3>You have these in your basket</h3>
-                     <ul>Quantity : {this.state.game}</ul>
+                     <p>Quantity : {this.state.game}</p>
                     <p>Your price is : {this.state.totalprice}</p>
                     <Button btnType="Danger" clicked={this.orderCancelPurchaseHandler}>Cancel</Button>
                     <Button btnType="Success"clicked={this.orderContinueHandler}>Continue</Button>
                 </Modal>
                 
-                <video src="/COD.mp4" type="video/mp4" controls autoPlay loop></video>
+                
                 <div className={classes.COD}>
+                <img src="/COD.jpg" alt=""/>
                 <h1>CALL OF DUTY WARZONE</h1>
                     <p>PLACE YOUR ORDER</p>
                     <p>PRICE : {this.state.totalprice}</p>

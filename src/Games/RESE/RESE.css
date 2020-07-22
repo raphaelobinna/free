@@ -1,14 +1,10 @@
-.res video{
-    height: 400px;
-    width: 1500px;
-    align-self: center;
-}
+
 
 .RES{
     background-color: rgb(17, 45, 99);
     align-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     font: inherit;
     padding: 5px;
     margin: 0 5px;
@@ -16,9 +12,15 @@
     cursor: pointer;
     outline: none;
 }
+.RES img{
+    align-content: center;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}
 .RES h1 {
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     font-size: large;
 }
 .RES p {
@@ -48,9 +50,9 @@ outline: none;
         color: white;
     }
     @media (max-width: 499px){
-        .res video{
+        .res img{
             height: 150px;
-            width: 380px;
+            width: 180px;
             align-self: center;
             align-content: center;
             justify-content: center;

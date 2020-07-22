@@ -1,6 +1,6 @@
-.gow video{
-    height: 400px;
-    width: 1500px;
+.GOW img{
+    height: 350px;
+    width: 500px;
     align-self: center;
 }
 
@@ -8,7 +8,7 @@
     background-color: rgb(17, 45, 99);
     align-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     font: inherit;
     padding: 5px;
     margin: 0 5px;
@@ -18,7 +18,7 @@
 }
 .GOW h1 {
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     font-size: large;
 }
 .GOW p {
@@ -48,7 +48,7 @@ outline: none;
         color: white;
     }
     @media (max-width: 499px){
-        .gow video{
+        .gow img{
             height: 150px;
             width: 380px;
             align-self: center;

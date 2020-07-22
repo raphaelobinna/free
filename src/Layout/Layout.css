@@ -1,3 +1,17 @@
 .layout {
     background-color: black;
 }
+.Layout p {
+    color: aquamarine;
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.Layout a{
+    color: blue;
+}
+.Layout a:hover,
+.Layout a:active{
+    color: chartreuse;
+}

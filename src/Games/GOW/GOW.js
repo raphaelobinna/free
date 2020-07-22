@@ -45,7 +45,7 @@ class gow extends Component {
              this.setState({purchasing: false})
          }
          orderContinueHandler = () => {
-             alert('Thanks but I am not done with the site')
+             alert('Thanks but I am not done with the server side yet')
          }
          
         render () {      
@@ -61,14 +61,15 @@ class gow extends Component {
                     show={this.state.purchasing}
                     modalClosed={this.orderCancelPurchaseHandler}>
                         <h3>You have these in your basket</h3>
-                         <ul>Quantity : {this.state.game}</ul>
+                         <p>Quantity : {this.state.game}</p>
                         <p>Your price is : {this.state.totalprice}</p>
                         <Button btnType="Danger" clicked={this.orderCancelPurchaseHandler}>Cancel</Button>
                         <Button btnType="Success"clicked={this.orderContinueHandler}>Continue</Button>
                     </Modal>
                     
-                    <video  src="/GOW.mp4" type="video/mp4" controls autoPlay loop></video>
+                    
                     <div className={classes.GOW}>
+                    <img  src="/GOW.jpg" alt=""/>
                     <h1>GOD OF WAR 4</h1>
                         <p>PLACE YOUR ORDER</p>
                         <p>PRICE : {this.state.totalprice}</p>
